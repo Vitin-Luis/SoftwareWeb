@@ -100,7 +100,7 @@ ul li a:hover{
 }
 
 #primeiraimg{
-    width: 600px;
+    width: 400px;
     margin-left: 50px;
     margin-top: 140px;
     transform: rotate(-10deg);
@@ -123,7 +123,7 @@ ul li a:hover{
 }
 
 #segundaimg{
-    width: 600px;
+    width: 400px;
     margin-left: 50px;
     margin-top: 140px;
     transform: rotate(2deg);
@@ -179,15 +179,70 @@ footer{
     }
     
     .body{
-        width: 100%;
+        max-width: 412px;
     }
 
     body{
-        width: 100%;
+        max-width: 412px;
     }
 
+    header{
+        width: 412px;
+        height: 300px;
+    }
 
+    #h1titulo{
+        font-size: 30px;
+        
+    }  
 
+    .divfade{
+        background-image: linear-gradient(rgb(234, 0, 255), #fff);
+        max-width: 412px;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    #primeiraimg{
+        width: 150px;
+        margin-left: 10px;
+        margin-top:10px;
+        transform: rotate(-10deg);
+    }
+
+    #resumo{
+        display: inline-flex;
+        padding-bottom: 100px;
+        padding-left: 30px;
+    }
+
+    #sobre{
+        padding-top: 60px;
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+
+    #segundaimg{
+        width: 200px;
+        margin-left: 10px;
+        margin-top: 20px;
+        transform: rotate(2deg);
+    }
+    
+    #servicos{
+        font-size: 4vw;
+        padding-left: 20px;
+        padding-bottom: 110px;
+    }
+
+    #paragrafoservicos{
+        padding-top: 100px;
+        padding-right: 0px;
+        font-size: 14px;
+    }
+    
     
     
 
